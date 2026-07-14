@@ -13,6 +13,8 @@ spec:
       labels:
         app: nginx
     spec:
+      imagePullSecrets:
+      - name: harbor-pull-secret
       containers:
       - name: nginx
         # Replace with your actual Harbor domain address
