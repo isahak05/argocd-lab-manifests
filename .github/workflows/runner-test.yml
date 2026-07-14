@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Acknowledge Runner Execution
         run: |
-          echo "🚀 Success! The workflow is executing inside my Kubernetes cluster."
+          echo "🚀 Success! The workflow is executing inside my Kubernetes cluster test."
           echo "Runner OS: $RUNNER_OS"
           echo "Node Info:"
           uname -a
